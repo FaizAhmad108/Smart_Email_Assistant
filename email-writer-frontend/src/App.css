@@ -1,0 +1,44 @@
+/* Professional Email Writer - Interview Ready Design */
+
+/* Typography */
+h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #1a202c;
+  letter-spacing: -0.5px;
+  margin-bottom: 0.5rem !important;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Container - Clean & Professional */
+.MuiContainer-root {
+  padding: 3.5rem 2rem !important;
+  background: transparent;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Main Content Wrapper */
+.MuiBox-root {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* TextField Styling */
+.MuiTextField-root {
+  margin-bottom: 2.5rem !important;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root {
+  border-radius: 12px;
+  background: #f7fafc;
+  border: 2px solid #e2e8f0;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 15px;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root:hover {\n  border-color: #667eea;\n  background: #ffffff;\n  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.08);\n}\n\n.MuiTextField-root .MuiOutlinedInput-root.Mui-focused {\n  border-color: #667eea;\n  background: #ffffff;\n  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);\n}\n\n.MuiTextField-root .MuiOutlinedInput-input {\n  padding: 16px 16px;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;\n  font-size: 15px;\n  color: #1a202c;\n}\n\n.MuiTextField-root .MuiOutlinedInput-input::placeholder {\n  color: #a0aec0;\n}\n\n.MuiTextField-root .MuiInputLabel-root {\n  font-weight: 600;\n  color: #4a5568;\n  font-size: 14px;\n  letter-spacing: -0.2px;\n}\n\n.MuiTextField-root .MuiInputLabel-shrink {\n  color: #667eea !important;\n}\n\n/* Form Control - Select/Dropdown */\n.MuiFormControl-root {\n  margin-bottom: 2.5rem !important;\n}\n\n.MuiSelect-root {\n  border-radius: 12px;\n}\n\n.MuiOutlinedInput-root {\n  border-radius: 12px;\n  background: #f7fafc;\n  border: 2px solid #e2e8f0;\n  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);\n}\n\n.MuiOutlinedInput-root:hover {\n  border-color: #667eea;\n  background: #ffffff;\n  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.08);\n}\n\n.MuiOutlinedInput-root.Mui-focused {\n  border-color: #667eea;\n  background: #ffffff;\n  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);\n}\n\n.MuiInputBase-input {\n  color: #1a202c !important;\n  font-size: 15px;\n}\n\n.MuiInputLabel-root {\n  font-weight: 600;\n  color: #4a5568 !important;\n  font-size: 14px;\n}\n\n.MuiInputLabel-root.Mui-focused {\n  color: #667eea !important;\n}\n\n/* Button Styling */\n.MuiButton-contained {\n  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);\n  color: #ffffff;\n  border-radius: 10px;\n  padding: 13px 36px !important;\n  font-weight: 600;\n  font-size: 15px;\n  letter-spacing: -0.2px;\n  text-transform: none;\n  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);\n  box-shadow: 0 10px 25px rgba(102, 126, 234, 0.25);\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;\n}\n\n.MuiButton-contained:hover {\n  box-shadow: 0 15px 40px rgba(102, 126, 234, 0.35);\n  transform: translateY(-2px);\n}\n\n.MuiButton-contained:active {\n  transform: translateY(0);\n}\n\n.MuiButton-contained:disabled {\n  background: #cbd5e0;\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);\n  color: #a0aec0;\n}\n\n/* Outlined Button */\n.MuiButton-outlined {\n  border-radius: 10px;\n  padding: 13px 36px !important;\n  font-weight: 600;\n  font-size: 15px;\n  letter-spacing: -0.2px;\n  border: 2px solid #667eea;\n  color: #667eea;\n  text-transform: none;\n  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;\n}\n\n.MuiButton-outlined:hover {\n  background: rgba(102, 126, 234, 0.08);\n  border-color: #764ba2;\n  color: #764ba2;\n  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.15);\n  transform: translateY(-2px);\n}\n\n/* Menu Items */\n.MuiPaper-root {\n  border-radius: 12px !important;\n}\n\n.MuiMenuItem-root {\n  font-size: 15px;\n  padding: 12px 16px !important;\n  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);\n  color: #2d3748;\n}\n\n.MuiMenuItem-root:hover {\n  background: rgba(102, 126, 234, 0.08);\n  color: #667eea;\n}\n\n.MuiMenuItem-root.Mui-selected {\n  background: rgba(102, 126, 234, 0.12) !important;\n  color: #667eea !important;\n  font-weight: 600;\n}\n\n/* Progress Indicator */\n.MuiCircularProgress-root {\n  color: #667eea !important;\n}\n\n/* Responsive Design */\n@media (max-width: 768px) {\n  .MuiContainer-root {\n    padding: 2.5rem 1.5rem !important;\n  }\n\n  h1 {\n    font-size: 2rem !important;\n    margin-bottom: 1.5rem !important;\n  }\n\n  .MuiTextField-root,\n  .MuiFormControl-root {\n    margin-bottom: 2rem !important;\n  }\n}\n\n@media (max-width: 480px) {\n  .MuiContainer-root {\n    padding: 2rem 1rem !important;\n  }\n\n  h1 {\n    font-size: 1.75rem !important;\n  }\n\n  .MuiButton-contained,\n  .MuiButton-outlined {\n    padding: 12px 24px !important;\n    font-size: 14px !important;\n  }\n}\n\n/* Smooth transitions */\n* {\n  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;\n}\n
